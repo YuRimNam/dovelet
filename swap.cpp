@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main() {
-	int num1, num2, temp;
-	scanf("%d %d", &num1, &num2);
-	
+	int a, b, c;
+	scanf("%d %d", &a, &b);
+	c=a;
+	a=b;
+	b=c;
+	printf("%d %d", a, b);
 }
